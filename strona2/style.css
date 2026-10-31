@@ -1,0 +1,98 @@
+body {
+    color: blue;
+}
+
+#naglowek {
+    background-color: rgb(18, 167, 212);
+    color:black;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+}
+
+#naglowek h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#naglowek p {
+    font-size: 14px;
+    font_style: italic;
+    color: red;
+}
+
+#baner {
+    background-image: url('https://picsum.photos/1200/300?random=1');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#baner h2 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 3px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    word-spacing: 8px;
+}
+
+
+#baner p {
+    font-size: 18px;
+    font-style: italic;
+    white-space: nowrap;
+    direction: ltr;
+}
+
+
+#tresc {
+    width: 100%;
+    background-color: #ecf0f1;
+    padding:  20px 0;
+    min-height: 300px;
+}
+
+.wpis {
+    width: 80%;
+    margin: 15px auto;
+    background-color: white;
+    border-radius: 100px;
+    padding: 15px 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Helvetica', Arial,  sans-serif;
+}
+
+.wpis .autor {
+    font-weight: bold;
+    font-size: 16px;
+    color: blue;
+    margin-bottom: 2px;
+}
+
+.wpis .data {
+    font-size: 12px;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.wpis .tekst {
+    font-size: 15px;
+    color: blue;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.wpis .reakcje {
+    border-top: 1px solid blue;
+    padding-top: 10px;
+    color: red;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
